@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Shop3tier:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Shop3tier_jar</output-path>
+    <root id="archive" name="Shop3tier.jar">
+      <element id="module-output" name="Shop3tier" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../KAKA/Year3/Semester1/LAP_TRINH_JAVA/MySqlJdbcDriver/mysql-connector-j-8.0.31.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../KAKA/Year3/Semester1/LAP_TRINH_JAVA/gson-2.10.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

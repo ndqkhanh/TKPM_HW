@@ -1,0 +1,109 @@
+<style>
+    .selected {
+        border: 2px solid blue;
+        /* Example border style */
+        box-shadow: 0 0 5px blue;
+        /* Example box shadow style */
+    }
+</style>
+
+{{> header}}
+
+<main>
+    <div class="container justify-content-center align-items-center my-5 bg-light p-4">
+        <div class="py-1">
+
+            <div class="d-flex justify-content-center align-items-center">
+                <h1 class="text-center">Laptops</h1>
+            </div>
+
+            <div class="row align-items-start my-5">
+                <div class="col-sm-3">
+                    <button class="btn btn-primary mb-3" style="height: 50px; width: 100%;" type="button"
+                        id="btnGetList">
+                        Get List
+                    </button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-primary mb-3" style="height: 50px; width: 100%;" type="button"
+                        id="btnAddItem">
+                        Add Item
+                    </button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-primary mb-3" style="height: 50px; width: 100%;" type="button"
+                        id="btnUpdateItem">
+                        Update Item
+                    </button>
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-primary mb-3" style="height: 50px; width: 100%;" type="button"
+                        id="btnDeleteItem">
+                        Delete Item
+                    </button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row" id="product-list">
+                    {{!-- <div id="1" class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card h-100">
+                            <img src="https://shopdunk.com/images/thumbs/0001262_silver_550.webp" class="card-img-top"
+                                alt="MacBook Pro M1 2020">
+                            <div class="card-body">
+                                <h5 class="card-title">MacBook Pro M1 2020</h5>
+                                <p class="card-text">Price: 1000$</p>
+                                <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Quisquam, quae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card h-100">
+                            <img src="https://shopdunk.com/images/thumbs/0011420_silver_550.jpeg" class="card-img-top"
+                                alt="MacBook Pro 16 inch M2 Pro">
+                            <div class="card-body">
+                                <h5 class="card-title">MacBook Pro 16 inch M2 Pro</h5>
+                                <p class="card-text">Price: 1000$</p>
+                                <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Quisquam, quae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card h-100">
+                            <img src="https://shopdunk.com/images/thumbs/0011420_silver_550.jpeg" class="card-img-top"
+                                alt="MacBook Pro 14 inch M2 Pro">
+                            <div class="card-body">
+                                <h5 class="card-title">MacBook Pro 14 inch M2 Pro</h5>
+                                <p class="card-text">Price: 1000$</p>
+                                <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Quisquam, quae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card h-100">
+                            <img src="https://shopdunk.com/images/thumbs/0008031_macbook-pro-14-m1-pro-16-core16gb1tb_550.webp"
+                                class="card-img-top" alt="MacBook Pro 14 M1 Pro">
+                            <div class="card-body">
+                                <h5 class="card-title">MacBook Pro 14 M1 Pro</h5>
+                                <p class="card-text">Price: 1000$</p>
+                                <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Quisquam, quae.</p>
+                            </div>
+                        </div>
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{> footer}}
+
+<script src='./js/homepage.js'></script>
